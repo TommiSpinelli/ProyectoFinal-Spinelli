@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Periféricos PC - Carrito</title>
+<link rel="stylesheet" href="css/style.css" />
+<!-- Toastify -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+<body data-page="carrito">
+<header class="topbar">
+<div class="brand">🖥️ Periféricos PC</div>
+<nav>
+<a href="index.html" class="nav-link">Catálogo</a>
+<a href="carrito.html" class="nav-link active">🛒 Carrito <span id="cart-badge" class="badge">0</span></a>
+</nav>
+</header>
+
+
+<main class="container">
+<section class="card">
+<h2>Tu carrito</h2>
+<div id="cart-list" class="cart-list"></div>
+
+
+<div class="cart-summary">
+<button id="btn-vaciar" class="btn danger">Vaciar carrito</button>
+<div class="total">
+Total: <span id="cart-total">$0</span>
+</div>
+</div>
+
+
+<p class="hint">
+Usá <b>-</b> y <b>+</b> para ajustar cantidades. Si un producto queda en 0, se elimina del carrito.
+</p>
+</section>
+</main>
+
+
+<footer class="footer">
+<small>Tomas Spinelli - Todos los derechos reservados.</small>
+</footer>
+
+
+<script src="js/app.js" defer></script>
+</body>
+</html>

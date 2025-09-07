@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Periféricos PC - Catálogo</title>
+<link rel="stylesheet" href="css/style.css" />
+<!-- Toastify (notificaciones simples) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+<body data-page="catalogo">
+<header class="topbar">
+<div class="brand">🖥️ Periféricos PC</div>
+<nav>
+<a href="index.html" class="nav-link active">Catálogo</a>
+<a href="carrito.html" class="nav-link">🛒 Carrito <span id="cart-badge" class="badge">0</span></a>
+</nav>
+</header>
+
+
+<main class="container">
+<div class="actions">
+<button id="btn-agregar-producto" class="btn primary">+ Agregar producto</button>
+</div>
+
+
+<section class="card">
+<h2>Productos</h2>
+<div id="product-list" class="grid"></div>
+</section>
+</main>
+
+
+<footer class="footer">
+<small>Tomas Spinelli - Todos los derechos reservados.</small>
+</footer>
+
+
+<script src="js/app.js" defer></script>
+</body>
+</html>

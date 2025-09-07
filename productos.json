@@ -1,0 +1,7 @@
+[
+  { "codigo": "T1", "nombre": "Teclado", "precio": 55000 },
+  { "codigo": "M1", "nombre": "Monitor", "precio": 350000 },
+  { "codigo": "MO1", "nombre": "Mouse", "precio": 40000 },
+  { "codigo": "L1", "nombre": "Impresora", "precio": 150000 },
+  { "codigo": "H1", "nombre": "Headsets", "precio": 90000 }
+]
